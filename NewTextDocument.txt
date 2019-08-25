@@ -1,0 +1,15 @@
+ql> INSERT INTO CONSUMERS VALUES (6,'ROHEATO',3000,100,0
+ry OK, 1 row affected (0.03 sec)
+
+ql>   SELECT*
+ ->   FROM CONSUMERS;
+---------+---------+-------+------+----------+
+roductID | NAME    | PRICE | GST  | DISCOUNT |
+---------+---------+-------+------+----------+
+       1 | SHUBHAM |  2500 |    5 |     NULL |
+       2 | HEMANTO |    10 |   25 |     NULL |
+       3 | ASHWINO |    50 |   18 |     NULL |
+       4 | HARRYNO |  2500 |    1 |     NULL |
+       5 | ANIKETO |  1000 |    8 |     10.5 |
+       6 | ROHEATO |  3000 |  100 |        0 |
+---------+---------+-------+------+----------+
